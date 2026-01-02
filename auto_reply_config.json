@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "auto_mark_as_read": true,
+  "keywords": {
+    "resume": [
+      "resume",
+      "cv"
+    ]
+  },
+  "response_settings": {
+    "tone": "professional and friendly",
+    "max_words": 300,
+    "include_contact_info": true,
+    "include_links": true,
+    "signature": "Best regards"
+  },
+  "exclusions": {
+    "sender_domains": ["noreply", "no-reply", "donotreply", "mailer", "newsletter"],
+    "sender_emails": ["noreply@", "no-reply@", "donotreply@"],
+    "subject_keywords": ["unsubscribe", "spam", "newsletter", "notification", "alert", "update", "digest", "weekly", "daily", "monthly"]
+  }
+}

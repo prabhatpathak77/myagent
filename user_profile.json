@@ -1,0 +1,51 @@
+{
+  "personal_info": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "phone": "+1234567890",
+    "location": "City, Country",
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "github": "https://github.com/yourusername",
+    "portfolio": "https://yourportfolio.com"
+  },
+  "professional_summary": "Experienced software developer with 5+ years in full-stack development, specializing in Python, JavaScript, and cloud technologies. Passionate about building scalable applications and AI-powered solutions.",
+  "technical_skills": {
+    "programming_languages": ["Python", "JavaScript", "TypeScript", "Java", "Go"],
+    "frameworks": ["React", "Node.js", "Django", "Flask", "FastAPI"],
+    "databases": ["PostgreSQL", "MongoDB", "Redis", "MySQL"],
+    "cloud_platforms": ["AWS", "Google Cloud", "Azure"],
+    "tools": ["Docker", "Kubernetes", "Git", "CI/CD", "Jenkins"],
+    "ai_ml": ["TensorFlow", "PyTorch", "OpenAI API", "Google Gemini", "LangChain"]
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Tech Company",
+      "duration": "2020 - Present",
+      "description": "Led development of microservices architecture, improved system performance by 40%"
+    },
+    {
+      "title": "Software Developer",
+      "company": "Startup Inc",
+      "duration": "2018 - 2020",
+      "description": "Built full-stack web applications using React and Node.js"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University Name",
+      "year": "2018"
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect",
+    "Google Cloud Professional Developer"
+  ],
+  "availability": {
+    "status": "open_to_opportunities",
+    "preferred_roles": ["Senior Software Engineer", "Tech Lead", "Full Stack Developer"],
+    "work_type": ["Remote", "Hybrid"],
+    "notice_period": "2 weeks"
+  }
+}
