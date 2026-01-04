@@ -1,0 +1,10 @@
+# Vercel Ignore
+.git
+.env
+venv
+env
+__pycache__
+*.pyc
+rag_data
+rag_db
+tests
