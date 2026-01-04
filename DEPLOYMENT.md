@@ -21,6 +21,7 @@ The application relies on several environment variables for authentication and c
 ## Limitations on Serverless
 - **Voice Chat**: The voice chat feature uses `ffmpeg` for audio conversion. Vercel Serverless environments do not include `ffmpeg` by default. Voice capabilities might be restricted or fail if the browser sends incompatible audio formats.
 - **Database**: If using a local file-based database (like ChromaDB default), data will **not persist** between restarts because the Vercel filesystem is ephemeral. Re-deploying will wipe memory.
+- **Dependencies**: To fit within Vercel's serverless limits, I have commented out heavy libraries like `chromadb`, `sentence-transformers` (PyTorch), and `pydub` in `requirements.txt`. The core agent functionality (Email, Calendar) will work, but RAG/Knowledge features are disabled on Vercel.
 
 ## Deploying
 Run the following command in your terminal:
