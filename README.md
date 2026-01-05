@@ -5,6 +5,7 @@ A multi-agent AI system with a web interface where you can chat as well as speak
 
 ## Features
 
+
 ✓ **Web Interface** - Natural conversation with your AI assistant
 ✓ **TTS/STT** - You can talk to your assistant using your microphone and the assistant can speak responses back to you.
 ✓ **RAG Agent** - Natural conversation with your AI assistant
@@ -262,7 +263,7 @@ Edit `user_profile.json` with your information:
     "programming_languages": ["Python", "JavaScript"],
     "frameworks": ["React", "Django"]
   },
-  "experience": [...],
+  "experience": [..],
   "availability": {
     "status": "open_to_opportunities",
     "preferred_roles": ["Senior Developer"]
