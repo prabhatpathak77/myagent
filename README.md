@@ -18,13 +18,13 @@ A multi-agent AI system with a web interface where you can chat as well as speak
 
 ## Setup
 
-
 1. **Install dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
 
 2. **Get Google Cloud credentials:**
+
    - Visit [Google Cloud Console](https://console.cloud.google.com/)
    - Create a project
    - Enable Gmail API and Google Calendar API
