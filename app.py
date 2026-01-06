@@ -179,7 +179,7 @@ def synthesize_speech():
 
 if __name__ == '__main__':
     print("\n" + "=" * 60)
-    print("Starting AI Personal Assistant Web Interface")
+    print("Starting AI Personal Assistant Web UI")
     print("=" * 60)
     print("\nInitializing coordinator agent...")
     get_coordinator()
